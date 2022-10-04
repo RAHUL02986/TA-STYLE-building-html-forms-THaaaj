@@ -234,16 +234,17 @@ body {
 
     display: inline-block;
 
-    padding: 16px;
+    padding:10px 12px;
 
     text-transform: uppercase;
 
-    font-weight: 600;
+    font-weight: 400;
 
     letter-spacing: 0.8px;
 
     cursor: pointer;
 
+    font-size: 12px;
     transition: box-shadow 200ms ease-in-out;
 
 }
@@ -366,7 +367,7 @@ main{
 
 .hero{
 
-    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.4)), url(assets/banner.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../assets/banner.jpg) no-repeat;
 
     background-size: cover;
 
@@ -656,6 +657,10 @@ form .btn{
     margin-bottom: 12px;
 
 }
+.inner-color{
+    color: rgb(198, 105, 149);
+    
+}
 
 .article p{
 
@@ -765,7 +770,7 @@ form .btn{
 
 .recommended-item p{
 
-    font-size: 14px;
+    font-size: 12px;
 
     font-weight: 400;
 
@@ -845,7 +850,7 @@ form .btn{
 
 .contact .form-control {
 
-   background-color: #ebdfdf;
+   background-color: #c0b7b7;
 
     margin-bottom: 16px;
 
